@@ -1,0 +1,31 @@
+.homebuttonsavatar {
+    display: flex;
+    flex-direction: row;
+}
+.homebuttons {
+    display: flex;
+    flex-direction: column;
+}
+.aboutparaimage {
+    display: flex;
+    flex-direction: row;
+}
+.chartlabels {
+    display: flex;
+    flex-direction: row;
+}
+.projectindex {
+    display: flex;
+    flex-direction: row;
+}
+.contactform {
+    background-image: url("../images/speechbubblebath.png");
+}
+.formelements {
+    display: flex;
+    flex-direction: column;
+}
+.contactspeech {
+    display: flex;
+    flex-direction: row;
+}
