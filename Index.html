@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="home">
-        <h1>Siyabonga Goqoza</h1>
+        <h1 style="margin-bottom: 50px;">Siyabonga Goqoza</h1>
         <h2>HELPING CREATE A WORLD WHERE DREAMS COME TO LIFE</h2>
         
         <div class="homebuttonsavatar">
@@ -20,16 +20,16 @@
                 <a href="#contactMe"><button>Contact Me</button></a>
             </div>
             <div class="homeavatar">
-                <img src="images/SiyaAvatar.png" alt="">
+                <img class="havatar" src="images/SiyaAvatar.png" alt="">
             </div>
         </div> 
     </div>
-    <div id="aboutMe">
+    <div id="aboutMe" class="aboutMe">
         <h1>About Me</h1>
         <div class="aboutparaimage">
-            <p> I grew up playing video games, going from pixel art to high graphic games to this day. I'm a game developer who has worked in role playing game projects which incorporate programming a lot of game mechanics. I am an expert in both frontend and backend hence I am quite capable of handling both roles in a project. </p>
+            <p class="para1"> I grew up playing video games, going from pixel art to high graphic games to this day. I'm a game developer who has worked in role playing game projects which incorporate programming a lot of game mechanics. I am an expert in both frontend and backend hence I am quite capable of handling both roles in a project. </p>
 
-            <img src="images/SiyaAvatar.png" alt="">
+            <img class="aboutavatar" src="images/SiyaAvatar.png" alt="">
         </div>    
     </div>
     <div id="skills">   
@@ -47,39 +47,42 @@
     <div id="projects">
         <h1>My Projects</h1>
         <div class="projectindex">
-            <div class="projectimage">
-                <img src="images/UchihaWeb.png" alt="">
+            <div class="projectimage1">
+                <img class="pmage1" src="images/UchihaWeb.png" alt="">
             </div>    
-            <div class="projectinfo">
+            <div class="projectinfo1">
                 <h2>Itachi Uchiha Tribute</h2>
                 <p>A website to pay tribute to Itachi Uchiha from the Naruto Anime</p>
             </div>    
         </div>    
         <div class="projectindex">
-            <div class="projectimage">
-                <img src="images/projectC.png" alt="">
+            <div class="projectimage2">
+                <img class="pmage2" src="images/projectC.png" alt="">
             </div>
-            <div class="projectinfo">
+            <div class="projectinfo2">
                 <h2>Project-C</h2>
                 <p>A 2D pixelart game that takes you on a journey of how the CoronaVirus came to be </p>
             </div>    
         </div>    
     </div>
     <div id="contactMe">
-    <h1>Want To Chat?</h1>
-    <div class="contactspeech">
-        <img src="images/SiyaAvatar.png" alt="">
-        <form action="" class="contactform">
-            <div class="formelements">
-                <label for="name">Name</label>
-                <input type="text" name="name">
-                <label for="email">E-mail</label>
-                <input type="text" name="email">
-                <label for="message">Message</label>
-                <textarea name="message" id="" cols="30" rows="10"></textarea>
-            </div>    
-        </form>
-    </div>
+        
+        <div class="contactspeech">
+
+            <img class="contactavatar" src="images/SiyaAvatar.png" alt="">
+            <form action="" class="contactform">
+                <div class="formelements">
+                    <h1 class="chattitle">Want To Chat?</h1>
+                    <label for="name">Name</label>
+                    <input type="text" name="name">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email">
+                    <label for="message">Message</label>
+                    <textarea style="width: 233px; height: 40px;margin-left: 20px;" name="message" id="" cols="30" rows="10"></textarea>
+                    <input type="button" value="Send Message" style="width: 239px;">
+                </div>    
+            </form>
+        </div>
     
     </div>
 </body>

@@ -1,10 +1,17 @@
 .homebuttonsavatar {
     display: flex;
     flex-direction: row;
+   
+}
+#home {
+    margin-bottom: 40px;
+    background-image: url("../images/abstract.jpg");
 }
 .homebuttons {
     display: flex;
     flex-direction: column;
+    margin-top: 45px;
+    padding-top: 60px;
 }
 .aboutparaimage {
     display: flex;
@@ -20,6 +27,11 @@
 }
 .contactform {
     background-image: url("../images/speechbubblebath.png");
+    width: 375px;
+    height: 298px;
+    background-size: 408px;
+    padding-left: 49px;
+    margin-top: 76px;
 }
 .formelements {
     display: flex;
@@ -28,4 +40,88 @@
 .contactspeech {
     display: flex;
     flex-direction: row;
+}
+
+.chattitle {
+    margin-top: -105px;
+    margin-bottom: 84px;
+
+}
+.contactavatar {
+    width: 37%;
+    height: auto;
+    margin-right: 10px;
+    margin-right: 53px;
+    margin-left: 28px;
+
+}
+input {
+    width: 230px;
+    margin-left: 20px;
+}
+label {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.pmage1 {
+    width: 45%;
+    height: auto;
+}
+.pmage2 {
+    width: 65%;
+    height: auto;
+}
+.projectimage1 {
+    width: 78%;
+}
+.projectimage2 {
+    width: 100%;
+    margin-bottom: 85px;
+
+}
+.projectinfo1 {
+    margin-left: -145px;
+}
+.projectinfo2 {
+    margin-left: -145px;
+}
+.aboutavatar {
+    width: 37%;
+    height: auto;
+    margin-top: -21px;
+}
+.havatar {
+    width: 70%;
+    height: auto;
+}
+button {
+    width: 332px;
+    height: 55px;
+
+}
+.para1 {
+    width: 39%;
+    padding-top: 29px;
+
+}
+.aboutMe {
+    margin-top: 61px;
+    background-image: url("../images/geometric.png");
+}
+#skills {
+    background-image: url("../images/vectorTech.jpg");
+}
+#projects {
+    background-image: url("../images/vectorTech.jpg");
+}
+#contactMe {
+    background-image: url("../images/abstract.jpg");
+}
+
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
 }
